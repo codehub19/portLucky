@@ -1,0 +1,47 @@
+.plans-container{
+   
+  text-align:start;
+  font-size:12;
+  align-items:center;
+  justify-content:center;
+  padding:15px 35px;
+  display: grid;
+  transition: transform 0.4s;
+  padding-bottom: 35px;
+
+
+}
+
+.plans-container:hover{
+    background-color: #3FA268;
+    border-radius: 25px;
+    transform: translateY(-80px);
+    margin-top: 0;
+
+
+}
+
+.plans-container:hover button{
+  background-color: white;
+  color: black;
+}
+
+
+
+.stack{
+  
+    gap:1;
+    align-items:center;
+    color:white;
+    margin: 5px 0px;
+}
+
+
+.tick{
+  color: #3FA268;
+  padding-right: 5px;
+}
+
+.plans-container:hover .tick{
+  color: white;
+}
